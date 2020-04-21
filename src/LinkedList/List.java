@@ -57,10 +57,8 @@ public class List {
             return;
         }
         int i=1;
-        Node first = this.head;
         Node second = this.head;
         while(i!=index&&second!=null){
-            first =second;
             second = second.next;
             i++;
         }

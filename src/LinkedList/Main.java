@@ -31,5 +31,7 @@ public class Main {
         System.out.println(list.sumR(list.getHead()));
         System.out.println(list.sumIter());
         list.print();
+        list.removeIter(10);
+        list.print();
     }
 }
